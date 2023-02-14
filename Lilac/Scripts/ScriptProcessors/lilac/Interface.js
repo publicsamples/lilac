@@ -1,4 +1,4 @@
-Content.makeFrontInterface(1024, 768);
+Content.makeFrontInterface(1024, 650);
 
 //Sampler
 const var Sampler1 = Synth.getChildSynth("Sampler1");
@@ -53,6 +53,21 @@ Sampler3.asSampler().loadSampleMap(sampleMaps[value-1]);
 };
 
 Content.getComponent("cmbSampleMap3").setControlCallback(oncmbSampleMap3Control);
+
+const var ScriptButton1 = Content.getComponent("ScriptButton1");
+
+const var ScriptPanel1 = Content.getComponent("ScriptPanel1");
+
+inline function onScriptButton1Control(component, value)
+{
+
+      ScriptPanel1.showControl(value);
+      ScriptPanel1.showControl(1-value); 
+};
+
+Content.getComponent("ScriptButton1").setControlCallback(onScriptButton1Control);
+
+
 
 function onNoteOn()
 {

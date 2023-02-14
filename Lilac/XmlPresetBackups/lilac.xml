@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Processor Type="SynthChain" ID="lilac" Bypassed="0" Gain="0.21134889" Balance="0.00000000"
-           VoiceLimit="64.00000000" KillFadeTime="20.00000000" IconColour="0"
+<Processor Type="SynthChain" ID="lilac" Bypassed="0" Gain="0.2113488912582397"
+           Balance="0.0" VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0"
            packageName="" BuildVersion="650">
   <ChildProcessors>
     <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
@@ -9,136 +9,143 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptSlider" id="pitch1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="plfo1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="pitchLFOspeed1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob54" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob55" value="27.00000000"/>
-            <Control type="ScriptSlider" id="Knob46" value="0.03000000"/>
-            <Control type="ScriptButton" id="Button5" value="1.00000000"/>
-            <Control type="ScriptLabel" id="Label21" value="course           fine"/>
-            <Control type="ScriptLabel" id="Label25" value="lfo           speed"/>
-            <Control type="ScriptLabel" id="Label28" value="env            decay"/>
-            <Control type="ScriptComboBox" id="cmbSampleMap" value="9.00000000"/>
-            <Control type="ScriptButton" id="stpon1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="rate1" value="6.00000000"/>
-            <Control type="ScriptSlider" id="steps1" value="4.00000000"/>
-            <Control type="ScriptSliderPack" id="SliderPack1" value="0.00000000" data="16......................."/>
-            <Control type="ScriptSlider" id="layerenv1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Layer1" value="1.00000000"/>
-            <Control type="ScriptSlider" id="track1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="layerlfo1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="layerlfodelay1" value="0.05000000"/>
-            <Control type="ScriptSlider" id="layerlfospeed1" value="5.09999990"/>
-            <Control type="ScriptSlider" id="layerlfosmooth1" value="3.08999991"/>
-            <Control type="ScriptComboBox" id="ltype1" value="1.00000000"/>
-            <Control type="ScriptButton" id="sync1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="dl1" value="20000.00000000"/>
-            <Control type="ScriptSlider" id="sl1" value="-100.00000000"/>
-            <Control type="ScriptSlider" id="rl1" value="8.00000000"/>
-            <Control type="ScriptSlider" id="al1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob49" value="0.00000000"/>
-            <Control type="ScriptLabel" id="Label35" value="lfo             env          track           vel"/>
-            <Control type="ScriptSlider" id="ad2" value="20000.00000000"/>
-            <Control type="ScriptSlider" id="as3" value="0.00000000"/>
-            <Control type="ScriptSlider" id="ar4" value="0.00000000"/>
-            <Control type="ScriptSlider" id="g1" value="0.49000001"/>
-            <Control type="ScriptSlider" id="a1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob43" value="-0.55000001"/>
-            <Control type="ScriptSlider" id="Knob4" value="0.50000000"/>
-            <Control type="ScriptSlider" id="Knob5" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob6" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob7" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob8" value="20000.00000000"/>
-            <Control type="ScriptSlider" id="Knob44" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob21" value="3.00000000"/>
-            <Control type="ScriptSliderPack" id="SliderPack2" value="0.00000000" data="12....3.A.........."/>
-            <Control type="ScriptButton" id="Button2" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob19" value="11.00000000"/>
-            <Control type="ScriptSlider" id="Knob1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob2" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob3" value="5.38000011"/>
-            <Control type="ScriptSlider" id="Knob51" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob56" value="0.00000000"/>
-            <Control type="ScriptButton" id="Button6" value="1.00000000"/>
-            <Control type="ScriptSlider" id="Knob47" value="0.00000000"/>
-            <Control type="ScriptLabel" id="Label29" value="course         fine"/>
-            <Control type="ScriptLabel" id="Label30" value="lfo           speed"/>
-            <Control type="ScriptLabel" id="Label31" value="env            decay"/>
-            <Control type="ScriptComboBox" id="cmbSampleMap2" value="9.00000000"/>
-            <Control type="ScriptComboBox" id="ComboBox2" value="1.00000000"/>
-            <Control type="ScriptSlider" id="Knob13" value="0.10000000"/>
-            <Control type="ScriptSlider" id="Knob14" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob15" value="0.00000000"/>
-            <Control type="ScriptButton" id="Button1" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob16" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob17" value="20000.00000000"/>
-            <Control type="ScriptSlider" id="Knob18" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob20" value="5688.00000000"/>
-            <Control type="ScriptSlider" id="Knob9" value="1.00000000"/>
-            <Control type="ScriptSlider" id="Knob10" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob11" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob12" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob50" value="0.00000000"/>
-            <Control type="ScriptLabel" id="Label36" value="lfo           env            track          vel"/>
-            <Control type="ScriptSlider" id="Knob36" value="0.50000000"/>
-            <Control type="ScriptSlider" id="Knob37" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob38" value="20000.00000000"/>
-            <Control type="ScriptSlider" id="Knob39" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob40" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob45" value="0.33000001"/>
-            <Control type="ScriptComboBox" id="cmbSampleMap3" value="9.00000000"/>
-            <Control type="ScriptSlider" id="Knob24" value="1.00000000"/>
-            <Control type="ScriptComboBox" id="ComboBox4" value="1.00000000"/>
-            <Control type="ScriptSlider" id="Knob26" value="0.10000000"/>
-            <Control type="ScriptSlider" id="Knob27" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob28" value="123.55000305"/>
-            <Control type="ScriptButton" id="Button3" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob29" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob30" value="20000.00000000"/>
-            <Control type="ScriptSlider" id="Knob31" value="-100.00000000"/>
-            <Control type="ScriptSlider" id="Knob32" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob23" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob22" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob25" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob52" value="0.00000000"/>
-            <Control type="ScriptLabel" id="Label37" value="lfo             env          track           vel"/>
-            <Control type="ScriptLabel" id="Label38" value="lfo             env           track           vel"/>
-            <Control type="ScriptSlider" id="Knob33" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob34" value="0.50000000"/>
-            <Control type="ScriptSlider" id="Knob35" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob57" value="0.00000000"/>
-            <Control type="ScriptSlider" id="Knob58" value="7.00000000"/>
-            <Control type="ScriptButton" id="Button7" value="1.00000000"/>
-            <Control type="ScriptSlider" id="Knob48" value="0.01000000"/>
-            <Control type="ScriptLabel" id="Label32" value="env           decay"/>
-            <Control type="ScriptLabel" id="Label33" value="lfo           speed"/>
-            <Control type="ScriptLabel" id="Label34" value="course         fine"/>
-            <Control type="ScriptSliderPack" id="SliderPack3" value="3.00000000" data="16....3.C..fEL...bP...3.A"/>
-            <Control type="ScriptSlider" id="Knob41" value="11.00000000"/>
-            <Control type="ScriptSlider" id="Knob42" value="4.00000000"/>
-            <Control type="ScriptButton" id="Button4" value="0.00000000"/>
+            <Control type="ScriptSlider" id="pitch1" value="0.0"/>
+            <Control type="ScriptSlider" id="plfo1" value="0.0"/>
+            <Control type="ScriptSlider" id="pitchLFOspeed1" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob54" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob55" value="27.0"/>
+            <Control type="ScriptSlider" id="Knob46" value="0.02999999932944775"/>
+            <Control type="ScriptButton" id="Button5" value="1.0"/>
+            <Control type="ScriptComboBox" id="cmbSampleMap" value="9.0"/>
+            <Control type="ScriptButton" id="stpon1" value="0.0"/>
+            <Control type="ScriptSlider" id="rate1" value="6.0"/>
+            <Control type="ScriptSlider" id="steps1" value="4.0"/>
+            <Control type="ScriptSliderPack" id="SliderPack1" value="0.0" data="16......................."/>
+            <Control type="ScriptSlider" id="layerenv1" value="0.0"/>
+            <Control type="ScriptSlider" id="Layer1" value="1.0"/>
+            <Control type="ScriptSlider" id="track1" value="0.0"/>
+            <Control type="ScriptSlider" id="layerlfo1" value="0.0"/>
+            <Control type="ScriptSlider" id="layerlfodelay1" value="0.05000000074505806"/>
+            <Control type="ScriptSlider" id="layerlfospeed1" value="5.099999904632568"/>
+            <Control type="ScriptSlider" id="layerlfosmooth1" value="3.089999914169312"/>
+            <Control type="ScriptComboBox" id="ltype1" value="1.0"/>
+            <Control type="ScriptButton" id="sync1" value="0.0"/>
+            <Control type="ScriptSlider" id="dl1" value="20000.0"/>
+            <Control type="ScriptSlider" id="sl1" value="-100.0"/>
+            <Control type="ScriptSlider" id="rl1" value="8.0"/>
+            <Control type="ScriptSlider" id="al1" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob49" value="0.0"/>
+            <Control type="ScriptSlider" id="ad2" value="20000.0"/>
+            <Control type="ScriptSlider" id="as3" value="0.0"/>
+            <Control type="ScriptSlider" id="ar4" value="0.0"/>
+            <Control type="ScriptSlider" id="g1" value="0.4900000095367432"/>
+            <Control type="ScriptSlider" id="a1" value="7943.0"/>
+            <Control type="ScriptSlider" id="Knob43" value="-0.550000011920929"/>
+            <Control type="ScriptSlider" id="Knob4" value="0.5"/>
+            <Control type="ScriptSlider" id="Knob5" value="2783.0"/>
+            <Control type="ScriptSlider" id="Knob6" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob7" value="3803.0"/>
+            <Control type="ScriptSlider" id="Knob8" value="20000.0"/>
+            <Control type="ScriptSlider" id="Knob44" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob21" value="3.0"/>
+            <Control type="ScriptSliderPack" id="SliderPack2" value="0.0" data="12....3.A.........."/>
+            <Control type="ScriptButton" id="Button2" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob19" value="11.0"/>
+            <Control type="ScriptSlider" id="Knob1" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob2" value="0.1000000014901161"/>
+            <Control type="ScriptSlider" id="Knob3" value="5.380000114440918"/>
+            <Control type="ScriptSlider" id="Knob51" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob56" value="0.0"/>
+            <Control type="ScriptButton" id="Button6" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob47" value="0.0"/>
+            <Control type="ScriptComboBox" id="cmbSampleMap2" value="9.0"/>
+            <Control type="ScriptComboBox" id="ComboBox2" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob13" value="0.1000000014901161"/>
+            <Control type="ScriptSlider" id="Knob14" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob15" value="0.0"/>
+            <Control type="ScriptButton" id="Button1" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob16" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob17" value="20000.0"/>
+            <Control type="ScriptSlider" id="Knob18" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob20" value="5688.0"/>
+            <Control type="ScriptSlider" id="Knob9" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob10" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob11" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob12" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob50" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob36" value="0.5"/>
+            <Control type="ScriptSlider" id="Knob37" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob38" value="20000.0"/>
+            <Control type="ScriptSlider" id="Knob39" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob40" value="2463.0"/>
+            <Control type="ScriptSlider" id="Knob45" value="0.3300000131130219"/>
+            <Control type="ScriptComboBox" id="cmbSampleMap3" value="9.0"/>
+            <Control type="ScriptSlider" id="Knob24" value="1.0"/>
+            <Control type="ScriptComboBox" id="ComboBox4" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob26" value="0.1000000014901161"/>
+            <Control type="ScriptSlider" id="Knob27" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob28" value="123.5500030517578"/>
+            <Control type="ScriptButton" id="Button3" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob29" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob30" value="20000.0"/>
+            <Control type="ScriptSlider" id="Knob31" value="-100.0"/>
+            <Control type="ScriptSlider" id="Knob32" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob23" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob22" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob25" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob52" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob33" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob34" value="0.5"/>
+            <Control type="ScriptSlider" id="Knob35" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob57" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob58" value="7.0"/>
+            <Control type="ScriptButton" id="Button7" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob48" value="0.009999999776482582"/>
+            <Control type="ScriptSliderPack" id="SliderPack3" value="3.0" data="16....3.C..fEL...bP...3.A"/>
+            <Control type="ScriptSlider" id="Knob41" value="11.0"/>
+            <Control type="ScriptSlider" id="Knob42" value="4.0"/>
+            <Control type="ScriptButton" id="Button4" value="0.0"/>
+            <Control type="ScriptSlider" id="ScriptSlider1" value="0.6899999976158142"/>
+            <Control type="ScriptSlider" id="ScriptSlider2" value="1.440000057220459"/>
+            <Control type="ScriptSlider" id="ScriptSlider3" value="0.009999999776482582"/>
+            <Control type="ScriptSlider" id="ScriptSlider4" value="2.759999990463257"/>
+            <Control type="ScriptSlider" id="ScriptSlider5" value="0.7099999785423279"/>
+            <Control type="ScriptSlider" id="ScriptSlider6" value="0.4900000095367432"/>
+            <Control type="ScriptSlider" id="ScriptSlider7" value="0.1599999964237213"/>
+            <Control type="ScriptSlider" id="ScriptSlider8" value="0.2199999988079071"/>
+            <Control type="ScriptButton" id="ScriptButton1" value="1.0"/>
           </Content>
           <UIData Source="lilacUIData"/>
         </Processor>
       </ChildProcessors>
     </Processor>
-    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.00000000">
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
       <ChildProcessors/>
     </Processor>
-    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.00000000">
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
       <ChildProcessors/>
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
-      <ChildProcessors/>
+      <ChildProcessors>
+        <Processor Type="ScriptFX" ID="Script FX1" Bypassed="0">
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+          <Content/>
+          <Networks>
+            <Network ID="FX" Version="0.0.0"/>
+          </Networks>
+          <UIData>
+            <ContentProperties DeviceType="Desktop"/>
+          </UIData>
+        </Processor>
+      </ChildProcessors>
     </Processor>
-    <Processor Type="StreamingSampler" ID="Sampler1" Bypassed="0" Gain="0.49000001"
-               Balance="-0.55000001" VoiceLimit="96.00000000" KillFadeTime="20.00000000"
-               IconColour="0" PreloadSize="8192.00000000" BufferSize="4096.00000000"
-               VoiceAmount="256.00000000" SamplerRepeatMode="3.00000000" RRGroupAmount="8.00000000"
-               PitchTracking="1.00000000" OneShot="0.00000000" CrossfadeGroups="1.00000000"
-               Purged="0.00000000" Reversed="0.00000000" NumChannels="1" UseStaticMatrix="0.00000000"
-               Group0Table="132...............vOAp.p5....9C...vOAp.p5....9C...vOAp.p5....9C...vOzgyg9......FpmyOffe.+......Xf8hO6u5e+......FcuwO6u5e+.........vO6u5e+.....fzpFyO6u5e+.........vO...f+.........vO"
+    <Processor Type="StreamingSampler" ID="Sampler1" Bypassed="0" Gain="0.4900000095367432"
+               Balance="-0.550000011920929" VoiceLimit="96.0" KillFadeTime="20.0"
+               IconColour="0" PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="8.0" PitchTracking="1.0"
+               OneShot="0.0" CrossfadeGroups="1.0" Purged="0.0" Reversed="0.0"
+               NumChannels="1" UseStaticMatrix="0.0" Group0Table="132...............vOAp.p5....9C...vOAp.p5....9C...vOAp.p5....9C...vOzgyg9......FpmyOffe.+......Xf8hO6u5e+......FcuwO6u5e+.........vO6u5e+.....fzpFyO6u5e+.........vO...f+.........vO"
                Group1Table="276...............vOdYvn5......WHz1OdYvn5.....fHaTvOdYvn5.....f.5u2OdYvn8......36ewOdK7K9....9C...vOXMln9....9C...vOvZLA+.........vOFEvA+......lN9wOOPkC+.........vO26jL+.....fAEwzOZ9bM+.........3OMXTP+.........vOYvnP+.........vOyfQQ+......hpuyObuSR+.........vOUN6V+.........vO5y0e+.........vO5y0e+......aICxO5y0e+.........vO5y0e+.........vO5y0e+.........vO...f+......Hd5eO"
                Group2Table="300...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOI2H27.........vOxiwC9.........vOXnWn9HII48C...vOhHhn9....9C...vOsnrn9rss88C...vOX8W89....9C...vOv5uJ+.........vOIhHR+.........vOkZkZ+.........vOUqTa+.........vOt7sb+.........vOQuPe+.........vOV+Ue+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO...f+.........vO"
                Group3Table="228...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOy2xW9.........vOzgyg9.........vOB9A99....9C...vO1d199....9C...vOkvj.+....9C...vOSBSB+....9C...vOElDF+....9C...vOb4aI+....9C...vONGNW+.........vOnsmc+.TRRvC...vO6u5e+.........vO6u5e+.........vO...f+.........vO"
@@ -146,60 +153,58 @@
                Group5Table="336...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOA+.+7.........vOcibC9.........vOElDF9.........vOornL9.........vOE6Da9.TRRvC...vORtQt9.........vO7X739.........vOakZE+.........vO9A9Q+....9C...vOx3wX+....9C...vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+....9C...vO6u5e+HIIY7C...vO6u5e+HIII8C...vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO...f+HIIo6C...vO"
                Group6Table="192...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOv5u59.........vOLdL99.........vO3G3G+.........vOWoVY+....9C...vOgIgY+....9C...vOC8Bc+....9C...vOr9qd+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO...f+.........vO"
                Group7Table="192...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOoAog9.........vOkEkk9.........vOkEkE+.........vOkEkE+.........vO4F4F+.........vOtmsG+.........vOb4aI+.........vO6u5e+....9C...vO6u5e+....9C...vO6u5e+.........vO6u5e+.........vO...f+.........vO"
-               SampleMapID="SAW-SYS101-MIDRES">
+               SampleMapID="saw 2notch1lp res">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors>
             <Processor Type="Arpeggiator" ID="s1apr" Bypassed="1">
               <ChildProcessors/>
               <Content>
-                <Control type="ScriptButton" id="BypassButton" value="0.00000000"/>
-                <Control type="ScriptButton" id="ResetButton" value="0.00000000"/>
-                <Control type="ScriptSlider" id="NumStepSlider" value="4.00000000"/>
-                <Control type="ScriptSlider" id="StepReset" value="32.00000000"/>
-                <Control type="ScriptSlider" id="StepSkipSlider" value="1.00000000"/>
-                <Control type="ScriptButton" id="SortKeysButton" value="1.00000000"/>
-                <Control type="ScriptSlider" id="SpeedKnob" value="6.00000000"/>
-                <Control type="ScriptComboBox" id="SequenceComboBox" value="1.00000000"/>
-                <Control type="ScriptSlider" id="OctaveRange" value="0.00000000"/>
-                <Control type="ScriptSlider" id="Shuffle" value="0.00000000"/>
-                <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="0.00000000"
-                         data="16......................."/>
-                <Control type="ScriptSliderPack" id="VelocitySliderPack" value="0.00000000"
-                         data="16...f+BA..9KD..3uP..f+BA"/>
-                <Control type="ScriptSliderPack" id="LengthSliderPack" value="0.00000000"
-                         data="16...fkBA..VJD..XoP..fkBA"/>
-                <Control type="ScriptComboBox" id="ChannelSelector" value="2.00000000"/>
-                <Control type="ScriptComboBox" id="OutputChannelSelector" value="1.00000000"/>
-                <Control type="ScriptComboBox" id="MPEStartChannel" value="17.00000000"/>
-                <Control type="ScriptComboBox" id="MPEEndChannel" value="1.00000000"/>
+                <Control type="ScriptButton" id="BypassButton" value="0.0"/>
+                <Control type="ScriptButton" id="ResetButton" value="0.0"/>
+                <Control type="ScriptSlider" id="NumStepSlider" value="4.0"/>
+                <Control type="ScriptSlider" id="StepReset" value="32.0"/>
+                <Control type="ScriptSlider" id="StepSkipSlider" value="1.0"/>
+                <Control type="ScriptButton" id="SortKeysButton" value="1.0"/>
+                <Control type="ScriptSlider" id="SpeedKnob" value="6.0"/>
+                <Control type="ScriptComboBox" id="SequenceComboBox" value="1.0"/>
+                <Control type="ScriptSlider" id="OctaveRange" value="0.0"/>
+                <Control type="ScriptSlider" id="Shuffle" value="0.0"/>
+                <Control type="ScriptButton" id="EnableTie" value="0.0"/>
+                <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="3" data="16......................."/>
+                <Control type="ScriptSliderPack" id="VelocitySliderPack" value="0.0" data="16...f+BA..9KD..3uP..f+BA"/>
+                <Control type="ScriptSliderPack" id="LengthSliderPack" value="0.0" data="16...fkBA..VJD..XoP..fkBA"/>
+                <Control type="ScriptComboBox" id="ChannelSelector" value="2.0"/>
+                <Control type="ScriptComboBox" id="OutputChannelSelector" value="1.0"/>
+                <Control type="ScriptComboBox" id="MPEStartChannel" value="17.0"/>
+                <Control type="ScriptComboBox" id="MPEEndChannel" value="1.0"/>
+                <Control type="ScriptButton" id="Hold" value="0.0"/>
               </Content>
             </Processor>
           </ChildProcessors>
         </Processor>
-        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.00000000">
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
           <ChildProcessors>
-            <Processor Type="AHDSR" ID="AMP ENV" Bypassed="0" Monophonic="0.00000000"
-                       Retrigger="0.00000000" Intensity="1.00000000" AttackCurve="0.00000000"
-                       DecayCurve="0.51999998" Attack="0.00000000" AttackLevel="0.00000000"
-                       Hold="0.00000000" Decay="20000.00000000" Sustain="0.00000000"
-                       Release="1.00000000" EcoMode="1.00000000">
+            <Processor Type="AHDSR" ID="AMP ENV" Bypassed="0" Monophonic="0.0" Retrigger="0.0"
+                       Intensity="1.0" AttackCurve="0.0" DecayCurve="0.5199999809265137"
+                       Attack="7943.0" AttackLevel="0.0" Hold="0.0" Decay="20000.0"
+                       Sustain="0.0" Release="1.0" EcoMode="1.0">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors>
-                    <Processor Type="Constant" ID="Constant1" Bypassed="0" Intensity="0.00000000">
+                    <Processor Type="Constant" ID="Constant1" Bypassed="0" Intensity="0.0">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -208,50 +213,48 @@
             </Processor>
           </ChildProcessors>
         </Processor>
-        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.00000000">
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
           <ChildProcessors>
-            <Processor Type="Constant" ID="PITCH" Bypassed="0" Intensity="0.00000000"
-                       Bipolar="1">
+            <Processor Type="Constant" ID="PITCH" Bypassed="0" Intensity="0.0" Bipolar="1">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="LFO" ID="PITCH LFO" Bypassed="0" Intensity="0.00000000"
-                       Bipolar="1" Frequency="0.00000000" FadeIn="1610.17004395" WaveformType="1.00000000"
-                       Legato="1.00000000" TempoSync="0.00000000" SmoothingTime="5.00000000"
-                       LoopEnabled="1.00000000" PhaseOffset="0.00000000" CustomWaveform=""
-                       StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
+            <Processor Type="LFO" ID="PITCH LFO" Bypassed="0" Intensity="0.0" Bipolar="1"
+                       Frequency="0.0" FadeIn="1610.170043945312" WaveformType="1.0"
+                       Legato="1.0" TempoSync="0.0" SmoothingTime="5.0" LoopEnabled="1.0"
+                       PhaseOffset="0.0" SyncToMasterClock="0.0" IgnoreNoteOn="0.0"
+                       CustomWaveform="" StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="AHDSR" ID="pitchenv" Bypassed="0" Monophonic="0.00000000"
-                       Retrigger="1.00000000" Bipolar="1" Intensity="0.00000000" AttackCurve="0.00000000"
-                       DecayCurve="0.23000000" Attack="0.00000000" AttackLevel="0.00000000"
-                       Hold="0.00000000" Decay="27.00000000" Sustain="-100.00000000"
-                       Release="20.00000000" EcoMode="1.00000000">
+            <Processor Type="AHDSR" ID="pitchenv" Bypassed="0" Monophonic="0.0" Retrigger="1.0"
+                       Bipolar="1" Intensity="0.0" AttackCurve="0.0" DecayCurve="0.2300000041723251"
+                       Attack="0.0" AttackLevel="0.0" Hold="0.0" Decay="27.0" Sustain="-100.0"
+                       Release="20.0" EcoMode="1.0">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="Constant" ID="fine1" Bypassed="0" Intensity="0.03000000"
+            <Processor Type="Constant" ID="fine1" Bypassed="0" Intensity="0.02999999932944775"
                        Bipolar="1">
               <ChildProcessors/>
             </Processor>
@@ -260,59 +263,57 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors/>
         </Processor>
-        <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.00000000">
+        <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
           <ChildProcessors/>
         </Processor>
-        <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.00000000">
+        <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
           <ChildProcessors>
-            <Processor Type="LFO" ID="GROUP LFO" Bypassed="0" Intensity="0.00000000"
-                       Frequency="5.09999990" FadeIn="0.05000000" WaveformType="1.00000000"
-                       Legato="1.00000000" TempoSync="0.00000000" SmoothingTime="3.08999991"
-                       LoopEnabled="0.00000000" PhaseOffset="0.00000000" CustomWaveform=""
-                       StepData="64.MyLS9....9ilYlwOZlYl9....9SyLyjO....+zLyL6C...3OZlYl9nYlY5C...3OZlYF+....7C...3OMyLS9.">
+            <Processor Type="LFO" ID="GROUP LFO" Bypassed="0" Intensity="0.0" Frequency="5.099999904632568"
+                       FadeIn="0.05000000074505806" WaveformType="1.0" Legato="1.0"
+                       TempoSync="0.0" SmoothingTime="3.089999914169312" LoopEnabled="0.0"
+                       PhaseOffset="0.0" SyncToMasterClock="0.0" IgnoreNoteOn="0.0"
+                       CustomWaveform="" StepData="64.MyLS9....9ilYlwOZlYl9....9SyLyjO....+zLyL6C...3OZlYl9nYlY5C...3OZlYF+....7C...3OMyLS9.">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="MacroModulator" ID="GROUP LAYER" Bypassed="0" Intensity="1.00000000"
-                       UseTable="0.00000000" MacroIndex="0.00000000" SmoothTime="1000.00000000">
+            <Processor Type="MacroModulator" ID="GROUP LAYER" Bypassed="0" Intensity="1.0"
+                       UseTable="0.0" MacroIndex="0.0" SmoothTime="1000.0" MacroTableData="">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="AHDSR" ID="GROUP ENV" Bypassed="0" Monophonic="0.00000000"
-                       Retrigger="1.00000000" Intensity="0.00000000" AttackCurve="0.00000000"
-                       DecayCurve="0.18000001" Attack="0.00000000" AttackLevel="0.00000000"
-                       Hold="0.00000000" Decay="20000.00000000" Sustain="-100.00000000"
-                       Release="8.00000000" EcoMode="1.00000000">
+            <Processor Type="AHDSR" ID="GROUP ENV" Bypassed="0" Monophonic="0.0" Retrigger="1.0"
+                       Intensity="0.0" AttackCurve="0.0" DecayCurve="0.1800000071525574"
+                       Attack="0.0" AttackLevel="0.0" Hold="0.0" Decay="20000.0" Sustain="-100.0"
+                       Release="8.0" EcoMode="1.0">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="KeyNumber" ID="GROUP TRACK" Bypassed="0" Intensity="0.00000000"
-                       Mode="1.00000000" MidiTableData="24...............vO...f+....9C8R2qO"
-                       KeyTableData="512....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3OPJfs8....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C">
+            <Processor Type="KeyNumber" ID="GROUP TRACK" Bypassed="0" Intensity="0.0"
+                       MidiTableData="24...............vO...f+....9C8R2qO">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="Velocity" ID="Velocity Modulator1" Bypassed="0" Intensity="0.00000000"
-                       UseTable="0.00000000" Inverted="0.00000000" DecibelMode="0.00000000">
+            <Processor Type="Velocity" ID="Velocity Modulator1" Bypassed="0" Intensity="0.0"
+                       UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -320,16 +321,15 @@
       </ChildProcessors>
       <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
       <channels>
-        <channelData enabled="1" level="0.00000000" suffix=""/>
+        <channelData enabled="1" level="0.0" suffix=""/>
       </channels>
     </Processor>
-    <Processor Type="StreamingSampler" ID="Sampler2" Bypassed="0" Gain="0.50000000"
-               Balance="0.00000000" VoiceLimit="96.00000000" KillFadeTime="20.00000000"
-               IconColour="0" PreloadSize="8192.00000000" BufferSize="4096.00000000"
-               VoiceAmount="256.00000000" SamplerRepeatMode="3.00000000" RRGroupAmount="8.00000000"
-               PitchTracking="1.00000000" OneShot="0.00000000" CrossfadeGroups="1.00000000"
-               Purged="0.00000000" Reversed="0.00000000" NumChannels="1" UseStaticMatrix="0.00000000"
-               Group0Table="132...............vOAp.p5....9C...vOAp.p5....9C...vOAp.p5....9C...vOzgyg9......FpmyOffe.+......Xf8hO6u5e+......FcuwO6u5e+.........vO6u5e+.....fzpFyO6u5e+.........vO...f+.........vO"
+    <Processor Type="StreamingSampler" ID="Sampler2" Bypassed="0" Gain="0.5"
+               Balance="0.0" VoiceLimit="96.0" KillFadeTime="20.0" IconColour="0"
+               PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="8.0" PitchTracking="1.0"
+               OneShot="0.0" CrossfadeGroups="1.0" Purged="0.0" Reversed="0.0"
+               NumChannels="1" UseStaticMatrix="0.0" Group0Table="132...............vOAp.p5....9C...vOAp.p5....9C...vOAp.p5....9C...vOzgyg9......FpmyOffe.+......Xf8hO6u5e+......FcuwO6u5e+.........vO6u5e+.....fzpFyO6u5e+.........vO...f+.........vO"
                Group1Table="276...............vOdYvn5......WHz1OdYvn5.....fHaTvOdYvn5.....f.5u2OdYvn8......36ewOdK7K9....9C...vOXMln9....9C...vOvZLA+.........vOFEvA+......lN9wOOPkC+.........vO26jL+.....fAEwzOZ9bM+.........3OMXTP+.........vOYvnP+.........vOyfQQ+......hpuyObuSR+.........vOUN6V+.........vO5y0e+.........vO5y0e+......aICxO5y0e+.........vO5y0e+.........vO5y0e+.........vO...f+......Hd5eO"
                Group2Table="300...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOI2H27.........vOxiwC9.........vOXnWn9HII48C...vOhHhn9....9C...vOsnrn9rss88C...vOX8W89....9C...vOv5uJ+.........vOIhHR+.........vOkZkZ+.........vOUqTa+.........vOt7sb+.........vOQuPe+.........vOV+Ue+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO...f+.........vO"
                Group3Table="228...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOy2xW9.........vOzgyg9.........vOB9A99....9C...vO1d199....9C...vOkvj.+....9C...vOSBSB+....9C...vOElDF+....9C...vOb4aI+....9C...vONGNW+.........vOnsmc+.TRRvC...vO6u5e+.........vO6u5e+.........vO...f+.........vO"
@@ -337,60 +337,58 @@
                Group5Table="336...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOA+.+7.........vOcibC9.........vOElDF9.........vOornL9.........vOE6Da9.TRRvC...vORtQt9.........vO7X739.........vOakZE+.........vO9A9Q+....9C...vOx3wX+....9C...vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+....9C...vO6u5e+HIIY7C...vO6u5e+HIII8C...vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO...f+HIIo6C...vO"
                Group6Table="192...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOv5u59.........vOLdL99.........vO3G3G+.........vOWoVY+....9C...vOgIgY+....9C...vOC8Bc+....9C...vOr9qd+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO...f+.........vO"
                Group7Table="192...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOoAog9.........vOkEkk9.........vOkEkE+.........vOkEkE+.........vO4F4F+.........vOtmsG+.........vOb4aI+.........vO6u5e+....9C...vO6u5e+....9C...vO6u5e+.........vO6u5e+.........vO...f+.........vO"
-               SampleMapID="SAW-SYS101-MIDRES">
+               SampleMapID="saw 2notch1lp res">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors>
             <Processor Type="Arpeggiator" ID="s1apr2" Bypassed="1">
               <ChildProcessors/>
               <Content>
-                <Control type="ScriptButton" id="BypassButton" value="0.00000000"/>
-                <Control type="ScriptButton" id="ResetButton" value="0.00000000"/>
-                <Control type="ScriptSlider" id="NumStepSlider" value="3.00000000"/>
-                <Control type="ScriptSlider" id="StepReset" value="32.00000000"/>
-                <Control type="ScriptSlider" id="StepSkipSlider" value="1.00000000"/>
-                <Control type="ScriptButton" id="SortKeysButton" value="1.00000000"/>
-                <Control type="ScriptSlider" id="SpeedKnob" value="11.00000000"/>
-                <Control type="ScriptComboBox" id="SequenceComboBox" value="1.00000000"/>
-                <Control type="ScriptSlider" id="OctaveRange" value="0.00000000"/>
-                <Control type="ScriptSlider" id="Shuffle" value="0.00000000"/>
-                <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="0.00000000"
-                         data="12....3.A.........."/>
-                <Control type="ScriptSliderPack" id="VelocitySliderPack" value="0.00000000"
-                         data="12...f+BA..9KD..3uP"/>
-                <Control type="ScriptSliderPack" id="LengthSliderPack" value="0.00000000"
-                         data="12...fkBA..VJD..XoP"/>
-                <Control type="ScriptComboBox" id="ChannelSelector" value="2.00000000"/>
-                <Control type="ScriptComboBox" id="OutputChannelSelector" value="1.00000000"/>
-                <Control type="ScriptComboBox" id="MPEStartChannel" value="17.00000000"/>
-                <Control type="ScriptComboBox" id="MPEEndChannel" value="1.00000000"/>
+                <Control type="ScriptButton" id="BypassButton" value="0.0"/>
+                <Control type="ScriptButton" id="ResetButton" value="0.0"/>
+                <Control type="ScriptSlider" id="NumStepSlider" value="3.0"/>
+                <Control type="ScriptSlider" id="StepReset" value="32.0"/>
+                <Control type="ScriptSlider" id="StepSkipSlider" value="1.0"/>
+                <Control type="ScriptButton" id="SortKeysButton" value="1.0"/>
+                <Control type="ScriptSlider" id="SpeedKnob" value="11.0"/>
+                <Control type="ScriptComboBox" id="SequenceComboBox" value="1.0"/>
+                <Control type="ScriptSlider" id="OctaveRange" value="0.0"/>
+                <Control type="ScriptSlider" id="Shuffle" value="0.0"/>
+                <Control type="ScriptButton" id="EnableTie" value="0.0"/>
+                <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="2" data="12....3.A.........."/>
+                <Control type="ScriptSliderPack" id="VelocitySliderPack" value="0.0" data="12...f+BA..9KD..3uP"/>
+                <Control type="ScriptSliderPack" id="LengthSliderPack" value="0.0" data="12...fkBA..VJD..XoP"/>
+                <Control type="ScriptComboBox" id="ChannelSelector" value="2.0"/>
+                <Control type="ScriptComboBox" id="OutputChannelSelector" value="1.0"/>
+                <Control type="ScriptComboBox" id="MPEStartChannel" value="17.0"/>
+                <Control type="ScriptComboBox" id="MPEEndChannel" value="1.0"/>
+                <Control type="ScriptButton" id="Hold" value="0.0"/>
               </Content>
             </Processor>
           </ChildProcessors>
         </Processor>
-        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.00000000">
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
           <ChildProcessors>
-            <Processor Type="AHDSR" ID="AMP ENV2" Bypassed="0" Monophonic="0.00000000"
-                       Retrigger="0.00000000" Intensity="1.00000000" AttackCurve="0.00000000"
-                       DecayCurve="0.51999998" Attack="0.00000000" AttackLevel="0.00000000"
-                       Hold="0.00000000" Decay="20000.00000000" Sustain="0.00000000"
-                       Release="1.00000000" EcoMode="1.00000000">
+            <Processor Type="AHDSR" ID="AMP ENV2" Bypassed="0" Monophonic="0.0" Retrigger="0.0"
+                       Intensity="1.0" AttackCurve="0.0" DecayCurve="0.5199999809265137"
+                       Attack="3803.0" AttackLevel="0.0" Hold="0.0" Decay="20000.0"
+                       Sustain="0.0" Release="2783.0" EcoMode="1.0">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors>
-                    <Processor Type="Constant" ID="Constant11" Bypassed="0" Intensity="0.00000000">
+                    <Processor Type="Constant" ID="Constant11" Bypassed="0" Intensity="0.0">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -399,51 +397,48 @@
             </Processor>
           </ChildProcessors>
         </Processor>
-        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.00000000">
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
           <ChildProcessors>
-            <Processor Type="Constant" ID="PITCH2" Bypassed="0" Intensity="0.00000000"
-                       Bipolar="1">
+            <Processor Type="Constant" ID="PITCH2" Bypassed="0" Intensity="1.0" Bipolar="1">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="LFO" ID="PITCH LFO2" Bypassed="0" Intensity="0.01000000"
-                       Bipolar="1" Frequency="5.38000011" FadeIn="1610.17004395" WaveformType="1.00000000"
-                       Legato="1.00000000" TempoSync="0.00000000" SmoothingTime="5.00000000"
-                       LoopEnabled="1.00000000" PhaseOffset="0.00000000" CustomWaveform=""
-                       StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
+            <Processor Type="LFO" ID="PITCH LFO2" Bypassed="0" Intensity="0.009999999776482582"
+                       Bipolar="1" Frequency="0.1000000014901161" FadeIn="1610.170043945312"
+                       WaveformType="1.0" Legato="1.0" TempoSync="0.0" SmoothingTime="5.0"
+                       LoopEnabled="1.0" PhaseOffset="0.0" SyncToMasterClock="0.0" IgnoreNoteOn="0.0"
+                       CustomWaveform="" StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="AHDSR" ID="pitchenv2" Bypassed="0" Monophonic="0.00000000"
-                       Retrigger="1.00000000" Bipolar="1" Intensity="0.00000000" AttackCurve="0.00000000"
-                       DecayCurve="0.23000000" Attack="0.00000000" AttackLevel="0.00000000"
-                       Hold="0.00000000" Decay="0.00000000" Sustain="-100.00000000"
-                       Release="20.00000000" EcoMode="1.00000000">
+            <Processor Type="AHDSR" ID="pitchenv2" Bypassed="0" Monophonic="0.0" Retrigger="1.0"
+                       Bipolar="1" Intensity="0.0" AttackCurve="0.0" DecayCurve="0.2300000041723251"
+                       Attack="0.0" AttackLevel="0.0" Hold="0.0" Decay="1.0" Sustain="-100.0"
+                       Release="20.0" EcoMode="1.0">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="Constant" ID="fine2" Bypassed="0" Intensity="0.00000000"
-                       Bipolar="1">
+            <Processor Type="Constant" ID="fine2" Bypassed="0" Intensity="0.0" Bipolar="1">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -451,59 +446,56 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors/>
         </Processor>
-        <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.00000000">
+        <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
           <ChildProcessors/>
         </Processor>
-        <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.00000000">
+        <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
           <ChildProcessors>
-            <Processor Type="LFO" ID="GROUP LFO2" Bypassed="0" Intensity="0.00000000"
-                       Frequency="0.10000000" FadeIn="0.00000000" WaveformType="1.00000000"
-                       Legato="1.00000000" TempoSync="0.00000000" SmoothingTime="0.00000000"
-                       LoopEnabled="0.00000000" PhaseOffset="0.00000000" CustomWaveform=""
-                       StepData="64.MyLS9....9ilYlwOZlYl9....9SyLyjO....+zLyL6C...3OZlYl9nYlY5C...3OZlYF+....7C...3OMyLS9.">
+            <Processor Type="LFO" ID="GROUP LFO2" Bypassed="0" Intensity="0.0" Frequency="0.1000000014901161"
+                       FadeIn="0.0" WaveformType="1.0" Legato="1.0" TempoSync="0.0"
+                       SmoothingTime="0.0" LoopEnabled="0.0" PhaseOffset="0.0" SyncToMasterClock="0.0"
+                       IgnoreNoteOn="0.0" CustomWaveform="" StepData="64.MyLS9....9ilYlwOZlYl9....9SyLyjO....+zLyL6C...3OZlYl9nYlY5C...3OZlYF+....7C...3OMyLS9.">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="MacroModulator" ID="GROUP LAYER2" Bypassed="0" Intensity="1.00000000"
-                       UseTable="0.00000000" MacroIndex="1.00000000" SmoothTime="1000.00000000">
+            <Processor Type="MacroModulator" ID="GROUP LAYER2" Bypassed="0" Intensity="1.0"
+                       UseTable="0.0" MacroIndex="1.0" SmoothTime="1000.0" MacroTableData="">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="AHDSR" ID="GROUP ENV2" Bypassed="0" Monophonic="0.00000000"
-                       Retrigger="1.00000000" Intensity="0.00000000" AttackCurve="0.00000000"
-                       DecayCurve="0.18000001" Attack="0.00000000" AttackLevel="0.00000000"
-                       Hold="0.00000000" Decay="20000.00000000" Sustain="0.00000000"
-                       Release="5688.00000000" EcoMode="1.00000000">
+            <Processor Type="AHDSR" ID="GROUP ENV2" Bypassed="0" Monophonic="0.0" Retrigger="1.0"
+                       Intensity="0.0" AttackCurve="0.0" DecayCurve="0.1800000071525574"
+                       Attack="0.0" AttackLevel="0.0" Hold="0.0" Decay="20000.0" Sustain="0.0"
+                       Release="5688.0" EcoMode="1.0">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="KeyNumber" ID="GROUP TRACK2" Bypassed="0" Intensity="0.00000000"
-                       Mode="1.00000000" MidiTableData="24...............vO...f+....9C8R2qO"
-                       KeyTableData="512....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3OPJfs8....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C">
+            <Processor Type="KeyNumber" ID="GROUP TRACK2" Bypassed="0" Intensity="0.0"
+                       MidiTableData="24...............vO...f+....9C8R2qO">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="Velocity" ID="Velocity Modulator2" Bypassed="0" Intensity="0.00000000"
-                       UseTable="0.00000000" Inverted="0.00000000" DecibelMode="0.00000000">
+            <Processor Type="Velocity" ID="Velocity Modulator2" Bypassed="0" Intensity="0.0"
+                       UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -511,16 +503,15 @@
       </ChildProcessors>
       <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
       <channels>
-        <channelData enabled="1" level="0.00000000" suffix=""/>
+        <channelData enabled="1" level="0.0" suffix=""/>
       </channels>
     </Processor>
-    <Processor Type="StreamingSampler" ID="Sampler3" Bypassed="0" Gain="0.50000000"
-               Balance="0.33000001" VoiceLimit="96.00000000" KillFadeTime="20.00000000"
-               IconColour="0" PreloadSize="8192.00000000" BufferSize="4096.00000000"
-               VoiceAmount="256.00000000" SamplerRepeatMode="3.00000000" RRGroupAmount="8.00000000"
-               PitchTracking="1.00000000" OneShot="0.00000000" CrossfadeGroups="1.00000000"
-               Purged="0.00000000" Reversed="0.00000000" NumChannels="1" UseStaticMatrix="0.00000000"
-               Group0Table="132...............vOAp.p5....9C...vOAp.p5....9C...vOAp.p5....9C...vOzgyg9......FpmyOffe.+......Xf8hO6u5e+......FcuwO6u5e+.........vO6u5e+.....fzpFyO6u5e+.........vO...f+.........vO"
+    <Processor Type="StreamingSampler" ID="Sampler3" Bypassed="0" Gain="0.5"
+               Balance="0.3300000131130219" VoiceLimit="96.0" KillFadeTime="20.0"
+               IconColour="0" PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="8.0" PitchTracking="1.0"
+               OneShot="0.0" CrossfadeGroups="1.0" Purged="0.0" Reversed="0.0"
+               NumChannels="1" UseStaticMatrix="0.0" Group0Table="132...............vOAp.p5....9C...vOAp.p5....9C...vOAp.p5....9C...vOzgyg9......FpmyOffe.+......Xf8hO6u5e+......FcuwO6u5e+.........vO6u5e+.....fzpFyO6u5e+.........vO...f+.........vO"
                Group1Table="276...............vOdYvn5......WHz1OdYvn5.....fHaTvOdYvn5.....f.5u2OdYvn8......36ewOdK7K9....9C...vOXMln9....9C...vOvZLA+.........vOFEvA+......lN9wOOPkC+.........vO26jL+.....fAEwzOZ9bM+.........3OMXTP+.........vOYvnP+.........vOyfQQ+......hpuyObuSR+.........vOUN6V+.........vO5y0e+.........vO5y0e+......aICxO5y0e+.........vO5y0e+.........vO5y0e+.........vO...f+......Hd5eO"
                Group2Table="300...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOI2H27.........vOxiwC9.........vOXnWn9HII48C...vOhHhn9....9C...vOsnrn9rss88C...vOX8W89....9C...vOv5uJ+.........vOIhHR+.........vOkZkZ+.........vOUqTa+.........vOt7sb+.........vOQuPe+.........vOV+Ue+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO...f+.........vO"
                Group3Table="228...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOy2xW9.........vOzgyg9.........vOB9A99....9C...vO1d199....9C...vOkvj.+....9C...vOSBSB+....9C...vOElDF+....9C...vOb4aI+....9C...vONGNW+.........vOnsmc+.TRRvC...vO6u5e+.........vO6u5e+.........vO...f+.........vO"
@@ -528,60 +519,58 @@
                Group5Table="336...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOA+.+7.........vOcibC9.........vOElDF9.........vOornL9.........vOE6Da9.TRRvC...vORtQt9.........vO7X739.........vOakZE+.........vO9A9Q+....9C...vOx3wX+....9C...vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+....9C...vO6u5e+HIIY7C...vO6u5e+HIII8C...vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO...f+HIIo6C...vO"
                Group6Table="192...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOAp.p5.........vOv5u59.........vOLdL99.........vO3G3G+.........vOWoVY+....9C...vOgIgY+....9C...vOC8Bc+....9C...vOr9qd+.........vO6u5e+.........vO6u5e+.........vO6u5e+.........vO...f+.........vO"
                Group7Table="192...............vOAp.p5.........vOAp.p5.........vOAp.p5.........vOoAog9.........vOkEkk9.........vOkEkE+.........vOkEkE+.........vO4F4F+.........vOtmsG+.........vOb4aI+.........vO6u5e+....9C...vO6u5e+....9C...vO6u5e+.........vO6u5e+.........vO...f+.........vO"
-               SampleMapID="SAW-SYS101-MIDRES">
+               SampleMapID="saw 2notch1lp res">
       <ChildProcessors>
         <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
           <ChildProcessors>
             <Processor Type="Arpeggiator" ID="s1apr3" Bypassed="1">
               <ChildProcessors/>
               <Content>
-                <Control type="ScriptButton" id="BypassButton" value="0.00000000"/>
-                <Control type="ScriptButton" id="ResetButton" value="0.00000000"/>
-                <Control type="ScriptSlider" id="NumStepSlider" value="4.00000000"/>
-                <Control type="ScriptSlider" id="StepReset" value="32.00000000"/>
-                <Control type="ScriptSlider" id="StepSkipSlider" value="1.00000000"/>
-                <Control type="ScriptButton" id="SortKeysButton" value="1.00000000"/>
-                <Control type="ScriptSlider" id="SpeedKnob" value="11.00000000"/>
-                <Control type="ScriptComboBox" id="SequenceComboBox" value="1.00000000"/>
-                <Control type="ScriptSlider" id="OctaveRange" value="0.00000000"/>
-                <Control type="ScriptSlider" id="Shuffle" value="0.00000000"/>
-                <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="0.00000000"
-                         data="16....3.C..fEL...bP...3.A"/>
-                <Control type="ScriptSliderPack" id="VelocitySliderPack" value="0.00000000"
-                         data="16...f+BA..9KD..3uP..f+BA"/>
-                <Control type="ScriptSliderPack" id="LengthSliderPack" value="0.00000000"
-                         data="16...fkBA..VJD..XoP..fkBA"/>
-                <Control type="ScriptComboBox" id="ChannelSelector" value="2.00000000"/>
-                <Control type="ScriptComboBox" id="OutputChannelSelector" value="1.00000000"/>
-                <Control type="ScriptComboBox" id="MPEStartChannel" value="17.00000000"/>
-                <Control type="ScriptComboBox" id="MPEEndChannel" value="1.00000000"/>
+                <Control type="ScriptButton" id="BypassButton" value="0.0"/>
+                <Control type="ScriptButton" id="ResetButton" value="0.0"/>
+                <Control type="ScriptSlider" id="NumStepSlider" value="4.0"/>
+                <Control type="ScriptSlider" id="StepReset" value="32.0"/>
+                <Control type="ScriptSlider" id="StepSkipSlider" value="1.0"/>
+                <Control type="ScriptButton" id="SortKeysButton" value="1.0"/>
+                <Control type="ScriptSlider" id="SpeedKnob" value="11.0"/>
+                <Control type="ScriptComboBox" id="SequenceComboBox" value="1.0"/>
+                <Control type="ScriptSlider" id="OctaveRange" value="0.0"/>
+                <Control type="ScriptSlider" id="Shuffle" value="0.0"/>
+                <Control type="ScriptButton" id="EnableTie" value="0.0"/>
+                <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="15" data="16....3.C..fEL...bP...3.A"/>
+                <Control type="ScriptSliderPack" id="VelocitySliderPack" value="0.0" data="16...f+BA..9KD..3uP..f+BA"/>
+                <Control type="ScriptSliderPack" id="LengthSliderPack" value="0.0" data="16...fkBA..VJD..XoP..fkBA"/>
+                <Control type="ScriptComboBox" id="ChannelSelector" value="2.0"/>
+                <Control type="ScriptComboBox" id="OutputChannelSelector" value="1.0"/>
+                <Control type="ScriptComboBox" id="MPEStartChannel" value="17.0"/>
+                <Control type="ScriptComboBox" id="MPEEndChannel" value="1.0"/>
+                <Control type="ScriptButton" id="Hold" value="0.0"/>
               </Content>
             </Processor>
           </ChildProcessors>
         </Processor>
-        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.00000000">
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
           <ChildProcessors>
-            <Processor Type="AHDSR" ID="AMP ENV3" Bypassed="0" Monophonic="0.00000000"
-                       Retrigger="0.00000000" Intensity="1.00000000" AttackCurve="0.00000000"
-                       DecayCurve="0.51999998" Attack="0.00000000" AttackLevel="0.00000000"
-                       Hold="0.00000000" Decay="20000.00000000" Sustain="0.00000000"
-                       Release="1.00000000" EcoMode="1.00000000">
+            <Processor Type="AHDSR" ID="AMP ENV3" Bypassed="0" Monophonic="0.0" Retrigger="0.0"
+                       Intensity="1.0" AttackCurve="0.0" DecayCurve="0.5199999809265137"
+                       Attack="0.0" AttackLevel="0.0" Hold="0.0" Decay="20000.0" Sustain="0.0"
+                       Release="2463.0" EcoMode="1.0">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors>
-                    <Processor Type="Constant" ID="Constant12" Bypassed="0" Intensity="0.00000000">
+                    <Processor Type="Constant" ID="Constant12" Bypassed="0" Intensity="0.0">
                       <ChildProcessors/>
                     </Processor>
                   </ChildProcessors>
@@ -590,50 +579,48 @@
             </Processor>
           </ChildProcessors>
         </Processor>
-        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.00000000">
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
           <ChildProcessors>
-            <Processor Type="Constant" ID="PITCH3" Bypassed="0" Intensity="0.00000000"
-                       Bipolar="1">
+            <Processor Type="Constant" ID="PITCH3" Bypassed="0" Intensity="0.0" Bipolar="1">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="LFO" ID="PITCH LFO3" Bypassed="0" Intensity="0.00000000"
-                       Bipolar="1" Frequency="0.50000000" FadeIn="1610.17004395" WaveformType="1.00000000"
-                       Legato="1.00000000" TempoSync="0.00000000" SmoothingTime="5.00000000"
-                       LoopEnabled="1.00000000" PhaseOffset="0.00000000" CustomWaveform=""
-                       StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
+            <Processor Type="LFO" ID="PITCH LFO3" Bypassed="0" Intensity="0.0" Bipolar="1"
+                       Frequency="0.5" FadeIn="1610.170043945312" WaveformType="1.0"
+                       Legato="1.0" TempoSync="0.0" SmoothingTime="5.0" LoopEnabled="1.0"
+                       PhaseOffset="0.0" SyncToMasterClock="0.0" IgnoreNoteOn="0.0"
+                       CustomWaveform="" StepData="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+.">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="AHDSR" ID="pitchenv3" Bypassed="0" Monophonic="0.00000000"
-                       Retrigger="1.00000000" Bipolar="1" Intensity="0.00000000" AttackCurve="0.00000000"
-                       DecayCurve="0.23000000" Attack="0.00000000" AttackLevel="0.00000000"
-                       Hold="0.00000000" Decay="7.00000000" Sustain="-100.00000000"
-                       Release="20.00000000" EcoMode="1.00000000">
+            <Processor Type="AHDSR" ID="pitchenv3" Bypassed="0" Monophonic="0.0" Retrigger="1.0"
+                       Bipolar="1" Intensity="0.0" AttackCurve="0.0" DecayCurve="0.2300000041723251"
+                       Attack="0.0" AttackLevel="0.0" Hold="0.0" Decay="7.0" Sustain="-100.0"
+                       Release="20.0" EcoMode="1.0">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="Constant" ID="fine3" Bypassed="0" Intensity="0.01000000"
+            <Processor Type="Constant" ID="fine3" Bypassed="0" Intensity="0.009999999776482582"
                        Bipolar="1">
               <ChildProcessors/>
             </Processor>
@@ -642,59 +629,57 @@
         <Processor Type="EffectChain" ID="FX" Bypassed="0">
           <ChildProcessors/>
         </Processor>
-        <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.00000000">
+        <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
           <ChildProcessors/>
         </Processor>
-        <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.00000000">
+        <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
           <ChildProcessors>
-            <Processor Type="LFO" ID="GROUP LFO3" Bypassed="0" Intensity="0.00000000"
-                       Frequency="0.10000000" FadeIn="0.00000000" WaveformType="1.00000000"
-                       Legato="1.00000000" TempoSync="0.00000000" SmoothingTime="123.55000305"
-                       LoopEnabled="0.00000000" PhaseOffset="0.00000000" CustomWaveform=""
+            <Processor Type="LFO" ID="GROUP LFO3" Bypassed="0" Intensity="0.0" Frequency="0.1000000014901161"
+                       FadeIn="0.0" WaveformType="1.0" Legato="1.0" TempoSync="0.0"
+                       SmoothingTime="123.5500030517578" LoopEnabled="0.0" PhaseOffset="0.0"
+                       SyncToMasterClock="0.0" IgnoreNoteOn="0.0" CustomWaveform=""
                        StepData="64.MyLS9....9ilYlwOZlYl9....9SyLyjO....+zLyL6C...3OZlYl9nYlY5C...3OZlYF+....7C...3OMyLS9.">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Intensity Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="LFO Frequency Mod" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="MacroModulator" ID="GROUP LAYER3" Bypassed="0" Intensity="1.00000000"
-                       UseTable="0.00000000" MacroIndex="2.00000000" SmoothTime="1000.00000000">
+            <Processor Type="MacroModulator" ID="GROUP LAYER3" Bypassed="0" Intensity="1.0"
+                       UseTable="0.0" MacroIndex="2.0" SmoothTime="1000.0" MacroTableData="">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="AHDSR" ID="GROUP ENV3" Bypassed="0" Monophonic="0.00000000"
-                       Retrigger="1.00000000" Intensity="0.00000000" AttackCurve="0.00000000"
-                       DecayCurve="0.18000001" Attack="0.00000000" AttackLevel="0.00000000"
-                       Hold="0.00000000" Decay="20000.00000000" Sustain="-100.00000000"
-                       Release="1.00000000" EcoMode="1.00000000">
+            <Processor Type="AHDSR" ID="GROUP ENV3" Bypassed="0" Monophonic="0.0" Retrigger="1.0"
+                       Intensity="0.0" AttackCurve="0.0" DecayCurve="0.1800000071525574"
+                       Attack="0.0" AttackLevel="0.0" Hold="0.0" Decay="20000.0" Sustain="-100.0"
+                       Release="1.0" EcoMode="1.0">
               <ChildProcessors>
-                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Attack Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Decay Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Sustain Level" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
-                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.00000000">
+                <Processor Type="ModulatorChain" ID="Release Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
                 </Processor>
               </ChildProcessors>
             </Processor>
-            <Processor Type="KeyNumber" ID="GROUP TRACK3" Bypassed="0" Intensity="0.00000000"
-                       Mode="1.00000000" MidiTableData="24...............vO...f+....9C8R2qO"
-                       KeyTableData="512....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3OPJfs8....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C">
+            <Processor Type="KeyNumber" ID="GROUP TRACK3" Bypassed="0" Intensity="0.0"
+                       MidiTableData="24...............vO...f+....9C8R2qO">
               <ChildProcessors/>
             </Processor>
-            <Processor Type="Velocity" ID="Velocity Modulator3" Bypassed="0" Intensity="0.00000000"
-                       UseTable="0.00000000" Inverted="0.00000000" DecibelMode="0.00000000">
+            <Processor Type="Velocity" ID="Velocity Modulator3" Bypassed="0" Intensity="0.0"
+                       UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
               <ChildProcessors/>
             </Processor>
           </ChildProcessors>
@@ -702,7 +687,7 @@
       </ChildProcessors>
       <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
       <channels>
-        <channelData enabled="1" level="0.00000000" suffix=""/>
+        <channelData enabled="1" level="0.0" suffix=""/>
       </channels>
     </Processor>
   </ChildProcessors>

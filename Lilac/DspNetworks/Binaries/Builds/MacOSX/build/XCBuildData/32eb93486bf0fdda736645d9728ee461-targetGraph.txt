@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Lilac - Dynamic Library in Lilac, no dependencies

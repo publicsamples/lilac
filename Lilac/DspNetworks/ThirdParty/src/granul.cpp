@@ -888,7 +888,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp32 = fVec7[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp31)))) & 16383];
 			fVec8[0] = fTemp32;
 			float fTemp33 = std::floor(fTemp31);
-			fRec38[0] = fVec8[1] - (fTemp33 + (2.0f - fRec45[0])) * (fRec38[1] - fTemp32) / (fRec45[0] - fTemp33);
+			fRec38[0] = fVec8[1] + (fTemp33 + (2.0f - fRec45[0])) * (fTemp32 - fRec38[1]) / (fRec45[0] - fTemp33);
 			fRec36[0] = fRec38[0];
 			float fTemp34 = fConst1 * fTemp7 * (fRec40[0] + 1.0f);
 			float fTemp35 = fTemp34 + 8.500005f;
@@ -920,7 +920,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp53 = fVec12[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp52)))) & 16383];
 			fVec13[0] = fTemp53;
 			float fTemp54 = std::floor(fTemp52);
-			fRec35[0] = fVec13[1] - (fTemp54 + (2.0f - fRec48[0])) * (fRec35[1] - fTemp53) / (fRec48[0] - fTemp54);
+			fRec35[0] = fVec13[1] + (fTemp54 + (2.0f - fRec48[0])) * (fTemp53 - fRec35[1]) / (fRec48[0] - fTemp54);
 			fRec33[0] = fRec35[0];
 			fVec14[IOTA0 & 16383] = fRec36[1] * fTemp3 + fTemp27 * fTemp48;
 			fRec50[0] = 0.9999f * (fRec50[1] + float(iTemp11 * iSlow13)) + fSlow14;
@@ -936,7 +936,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp59 = fVec16[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp58)))) & 16383];
 			fVec17[0] = fTemp59;
 			float fTemp60 = std::floor(fTemp58);
-			fRec32[0] = fVec17[1] - (fTemp60 + (2.0f - fRec51[0])) * (fRec32[1] - fTemp59) / (fRec51[0] - fTemp60);
+			fRec32[0] = fVec17[1] + (fTemp60 + (2.0f - fRec51[0])) * (fTemp59 - fRec32[1]) / (fRec51[0] - fTemp60);
 			fRec30[0] = fRec32[0];
 			fVec18[IOTA0 & 16383] = fRec33[1] * fTemp3 + fTemp27 * fTemp47;
 			fRec53[0] = 0.9999f * (fRec53[1] + float(iTemp11 * iSlow17)) + fSlow18;
@@ -944,7 +944,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp62 = fVec18[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp61)))) & 16383];
 			fVec19[0] = fTemp62;
 			float fTemp63 = std::floor(fTemp61);
-			fRec52[0] = fVec19[1] + (fTemp63 + (2.0f - fRec53[0])) * (fTemp62 - fRec52[1]) / (fRec53[0] - fTemp63);
+			fRec52[0] = fVec19[1] - (fTemp63 + (2.0f - fRec53[0])) * (fRec52[1] - fTemp62) / (fRec53[0] - fTemp63);
 			fRec31[0] = fRec52[0];
 			fVec20[IOTA0 & 16383] = 0.0f - (fTemp3 * fRec31[1] + fTemp27 * fTemp28);
 			fRec54[0] = 0.9999f * (fRec54[1] + float(iTemp11 * iSlow19)) + fSlow20;
@@ -952,7 +952,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp65 = fVec20[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp64)))) & 16383];
 			fVec21[0] = fTemp65;
 			float fTemp66 = std::floor(fTemp64);
-			fRec29[0] = fVec21[1] - (fTemp66 + (2.0f - fRec54[0])) * (fRec29[1] - fTemp65) / (fRec54[0] - fTemp66);
+			fRec29[0] = fVec21[1] + (fTemp66 + (2.0f - fRec54[0])) * (fTemp65 - fRec29[1]) / (fRec54[0] - fTemp66);
 			fRec27[0] = fRec29[0];
 			fVec22[IOTA0 & 16383] = fRec30[1] * fTemp3 + fTemp27 * fTemp46;
 			fRec56[0] = 0.9999f * (fRec56[1] + float(iTemp11 * iSlow21)) + fSlow22;
@@ -973,7 +973,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp76 = fVec24[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp75)))) & 16383];
 			fVec25[0] = fTemp76;
 			float fTemp77 = std::floor(fTemp75);
-			fRec26[0] = fVec25[1] - (fTemp77 + (2.0f - fRec57[0])) * (fRec26[1] - fTemp76) / (fRec57[0] - fTemp77);
+			fRec26[0] = fVec25[1] + (fTemp77 + (2.0f - fRec57[0])) * (fTemp76 - fRec26[1]) / (fRec57[0] - fTemp77);
 			fRec24[0] = fRec26[0];
 			float fTemp78 = fRec27[1] * fTemp3 + fTemp27 * fTemp45;
 			float fTemp79 = fTemp78 * fTemp5 - fTemp71 * fRec15[1];
@@ -985,7 +985,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp83 = fVec26[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp82)))) & 16383];
 			fVec27[0] = fTemp83;
 			float fTemp84 = std::floor(fTemp82);
-			fRec58[0] = fVec27[1] + (fTemp84 + (2.0f - fRec59[0])) * (fTemp83 - fRec58[1]) / (fRec59[0] - fTemp84);
+			fRec58[0] = fVec27[1] - (fTemp84 + (2.0f - fRec59[0])) * (fRec58[1] - fTemp83) / (fRec59[0] - fTemp84);
 			fRec25[0] = fRec58[0];
 			fVec28[IOTA0 & 16383] = 0.0f - (fTemp5 * fRec25[1] + fTemp71 * fTemp74);
 			fRec60[0] = 0.9999f * (fRec60[1] + float(iTemp11 * iSlow27)) + fSlow28;
@@ -993,7 +993,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp86 = fVec28[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp85)))) & 16383];
 			fVec29[0] = fTemp86;
 			float fTemp87 = std::floor(fTemp85);
-			fRec23[0] = fVec29[1] - (fTemp87 + (2.0f - fRec60[0])) * (fRec23[1] - fTemp86) / (fRec60[0] - fTemp87);
+			fRec23[0] = fVec29[1] + (fTemp87 + (2.0f - fRec60[0])) * (fTemp86 - fRec23[1]) / (fRec60[0] - fTemp87);
 			fRec21[0] = fRec23[0];
 			fVec30[IOTA0 & 16383] = fRec24[1] * fTemp5 + fTemp71 * fTemp81;
 			fRec62[0] = 0.9999f * (fRec62[1] + float(iTemp11 * iSlow29)) + fSlow30;
@@ -1009,7 +1009,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp92 = fVec32[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp91)))) & 16383];
 			fVec33[0] = fTemp92;
 			float fTemp93 = std::floor(fTemp91);
-			fRec20[0] = fVec33[1] - (fTemp93 + (2.0f - fRec63[0])) * (fRec20[1] - fTemp92) / (fRec63[0] - fTemp93);
+			fRec20[0] = fVec33[1] + (fTemp93 + (2.0f - fRec63[0])) * (fTemp92 - fRec20[1]) / (fRec63[0] - fTemp93);
 			fRec18[0] = fRec20[0];
 			fVec34[IOTA0 & 16383] = fRec21[1] * fTemp5 + fTemp71 * fTemp80;
 			fRec65[0] = 0.9999f * (fRec65[1] + float(iTemp11 * iSlow33)) + fSlow34;
@@ -1025,7 +1025,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp98 = fVec36[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp97)))) & 16383];
 			fVec37[0] = fTemp98;
 			float fTemp99 = std::floor(fTemp97);
-			fRec17[0] = fVec37[1] - (fTemp99 + (2.0f - fRec66[0])) * (fRec17[1] - fTemp98) / (fRec66[0] - fTemp99);
+			fRec17[0] = fVec37[1] + (fTemp99 + (2.0f - fRec66[0])) * (fTemp98 - fRec17[1]) / (fRec66[0] - fTemp99);
 			fRec15[0] = fRec17[0];
 			fVec38[IOTA0 & 16383] = fRec18[1] * fTemp5 + fTemp71 * fTemp79;
 			fRec68[0] = 0.9999f * (fRec68[1] + float(iTemp11 * iSlow37)) + fSlow38;
@@ -1045,7 +1045,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp108 = fVec40[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp107)))) & 16383];
 			fVec41[0] = fTemp108;
 			float fTemp109 = std::floor(fTemp107);
-			fRec14[0] = fVec41[1] - (fTemp109 + (2.0f - fRec69[0])) * (fRec14[1] - fTemp108) / (fRec69[0] - fTemp109);
+			fRec14[0] = fVec41[1] + (fTemp109 + (2.0f - fRec69[0])) * (fTemp108 - fRec14[1]) / (fRec69[0] - fTemp109);
 			fRec12[0] = fRec14[0];
 			float fTemp110 = fRec15[1] * fTemp5 + fTemp71 * fTemp78;
 			float fTemp111 = fTemp3 * fTemp110 - fTemp27 * fRec3[1];
@@ -1065,7 +1065,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp118 = fVec44[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp117)))) & 16383];
 			fVec45[0] = fTemp118;
 			float fTemp119 = std::floor(fTemp117);
-			fRec11[0] = fVec45[1] - (fTemp119 + (2.0f - fRec72[0])) * (fRec11[1] - fTemp118) / (fRec72[0] - fTemp119);
+			fRec11[0] = fVec45[1] + (fTemp119 + (2.0f - fRec72[0])) * (fTemp118 - fRec11[1]) / (fRec72[0] - fTemp119);
 			fRec9[0] = fRec11[0];
 			fVec46[IOTA0 & 16383] = fRec12[1] * fTemp3 + fTemp27 * fTemp113;
 			fRec74[0] = 0.9999f * (fRec74[1] + float(iTemp11 * iSlow45)) + fSlow46;
@@ -1081,7 +1081,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp124 = fVec48[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp123)))) & 16383];
 			fVec49[0] = fTemp124;
 			float fTemp125 = std::floor(fTemp123);
-			fRec8[0] = fVec49[1] - (fTemp125 + (2.0f - fRec75[0])) * (fRec8[1] - fTemp124) / (fRec75[0] - fTemp125);
+			fRec8[0] = fVec49[1] + (fTemp125 + (2.0f - fRec75[0])) * (fTemp124 - fRec8[1]) / (fRec75[0] - fTemp125);
 			fRec6[0] = fRec8[0];
 			fVec50[IOTA0 & 16383] = fRec9[1] * fTemp3 + fTemp27 * fTemp112;
 			fRec77[0] = 0.9999f * (fRec77[1] + float(iTemp11 * iSlow49)) + fSlow50;
@@ -1097,7 +1097,7 @@ class _granul final : public ::faust::dsp {
 			float fTemp130 = fVec52[(IOTA0 - std::min<int>(8192, std::max<int>(0, int(fTemp129)))) & 16383];
 			fVec53[0] = fTemp130;
 			float fTemp131 = std::floor(fTemp129);
-			fRec5[0] = fVec53[1] - (fTemp131 + (2.0f - fRec78[0])) * (fRec5[1] - fTemp130) / (fRec78[0] - fTemp131);
+			fRec5[0] = fVec53[1] + (fTemp131 + (2.0f - fRec78[0])) * (fTemp130 - fRec5[1]) / (fRec78[0] - fTemp131);
 			fRec3[0] = fRec5[0];
 			fVec54[IOTA0 & 16383] = fRec6[1] * fTemp3 + fTemp27 * fTemp111;
 			fRec80[0] = 0.9999f * (fRec80[1] + float(iTemp11 * iSlow53)) + fSlow54;

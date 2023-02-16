@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.0">
+<Preset Version="1.0.1">
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="pitch1" value="1.0"/>
     <Control type="ScriptSlider" id="plfo1" value="0.0"/>
@@ -9,7 +9,7 @@
     <Control type="ScriptSlider" id="Knob55" value="27.0"/>
     <Control type="ScriptSlider" id="Knob46" value="0.02999999932944775"/>
     <Control type="ScriptButton" id="Button5" value="1.0"/>
-    <Control type="ScriptComboBox" id="cmbSampleMap" value="39.0"/>
+    <Control type="ScriptComboBox" id="cmbSampleMap" value="26.0"/>
     <Control type="ScriptButton" id="stpon1" value="1.0"/>
     <Control type="ScriptSlider" id="rate1" value="11.0"/>
     <Control type="ScriptSlider" id="steps1" value="4.0"/>

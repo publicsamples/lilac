@@ -36,9 +36,9 @@
       <Component type="ScriptLabel" id="Label2" x="-8.0" y="-2.0" parentComponent="pitchpanel1"
                  text="PITCH" editable="0" width="64.0" height="29.0"/>
       <Component type="ScriptSlider" id="Knob46" x="58.0" y="40.0" parentComponent="pitchpanel1"
-                 width="45.0" height="45.0" text="" middlePosition="0.2000000029802322"
-                 itemColour="0" itemColour2="0" textColour="0" bgColour="0" processorId="fine1"
-                 parameterId="Intensity" max="0.4199996888637543" mode="Frequency"/>
+                 width="45.0" height="45.0" text="" middlePosition="0.0" itemColour="0"
+                 itemColour2="0" textColour="0" bgColour="0" processorId="fine1"
+                 parameterId="Intensity" max="0.2" min="-0.2"/>
       <Component type="ScriptButton" id="Button5" x="49.0" y="1.0" parentComponent="pitchpanel1"
                  processorId="Sampler1" parameterId="PitchTracking" width="60.0"
                  height="20.0" text="track" defaultValue="1.0"/>
@@ -338,7 +338,7 @@
       <Component type="ScriptSlider" id="Knob47" x="54.0" y="40.0" parentComponent="Panel4"
                  width="45.0" height="45.0" text="" bgColour="0" itemColour="0"
                  itemColour2="0" textColour="0" processorId="fine2" parameterId="Intensity"
-                 middlePosition="0.2000000029802322" max="0.4199999868869781"/>
+                 middlePosition="0.0" max="0.2" min="-0.2"/>
       <Component type="ScriptLabel" id="Label29" x="-15.0" y="24.0" parentComponent="Panel4"
                  text="course         fine" fontName="Arial Rounded MT Bold" fontSize="12.0"
                  editable="0" bgColour="4287977648" height="14.0" width="128.0"
@@ -646,8 +646,8 @@
                  parameterId="PitchTracking" defaultValue="1.0"/>
       <Component type="ScriptSlider" id="Knob48" x="57.0" y="41.0" parentComponent="Panel11"
                  width="45.0" height="45.0" text="" bgColour="0" itemColour="0"
-                 itemColour2="0" textColour="0" max="0.4199999868869781" middlePosition="0.2000000029802322"
-                 processorId="fine3" parameterId="Intensity"/>
+                 itemColour2="0" textColour="0" max="0.2" middlePosition="0.0"
+                 processorId="fine3" parameterId="Intensity" min="-0.2"/>
       <Component type="ScriptLabel" id="Label32" x="-8.0" y="164.0" parentComponent="Panel11"
                  text="env           decay" fontSize="12.0" fontName="Arial Rounded MT Bold"
                  editable="0" bgColour="4287977648" height="14.0" width="128.0"

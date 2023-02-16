@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.0">
+<Preset Version="1.0.1">
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="pitch1" value="2.0"/>
     <Control type="ScriptSlider" id="plfo1" value="0.0"/>

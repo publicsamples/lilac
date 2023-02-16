@@ -15,7 +15,8 @@
       <Component type="ScriptSlider" id="plfo1" x="3.0" y="109.0" text="j" processorId="PITCH LFO"
                  parameterId="Intensity" width="45.0" height="45.0" parentComponent="pitchpanel1"
                  bgColour="0" itemColour="0" itemColour2="0" isPluginParameter="1"
-                 pluginParameterName="pitch-lfo1" showTextBox="0" textColour="0"/>
+                 pluginParameterName="pitch-lfo1" showTextBox="0" textColour="0"
+                 min="-1.0" middlePosition="0.0"/>
       <Component type="ScriptSlider" id="pitchLFOspeed1" x="54.0" y="109.0" text=""
                  processorId="PITCH LFO" parameterId="Frequency" max="40.0" middlePosition="20.0"
                  stepSize="1.0" width="45.0" height="45.0" parentComponent="pitchpanel1"
@@ -24,7 +25,8 @@
       <Component type="ScriptSlider" id="Knob54" x="3.0" y="181.0" parentComponent="pitchpanel1"
                  width="45.0" height="45.0" text="" processorId="pitchenv" parameterId="Intensity"
                  itemColour="0" itemColour2="0" bgColour="0" textColour="0" isPluginParameter="1"
-                 pluginParameterName="pitch-env1" middlePosition="0.5"/>
+                 pluginParameterName="pitch-env1" middlePosition="0.0" min="-1.0"
+                 stepSize="0.1"/>
       <Component type="ScriptSlider" id="Knob55" x="71.0" y="186.0" parentComponent="pitchpanel1"
                  height="45.0" width="15.0" text="" processorId="pitchenv" parameterId="Decay"
                  max="20000.0" stepSize="1.0" middlePosition="1000.0" itemColour="4285612948"
@@ -309,8 +311,9 @@
                  max="2.0" stepSize="1.0" middlePosition="0.0"/>
       <Component type="ScriptSlider" id="Knob2" x="4.0" y="109.0" parentComponent="Panel4"
                  width="45.0" height="45.0" bgColour="0" itemColour="0" itemColour2="0"
-                 processorId="PITCH LFO2" text="lfo" parameterId="Frequency" isPluginParameter="1"
-                 pluginParameterName="pitch-lfo2" showTextBox="0" textColour="0"/>
+                 processorId="PITCH LFO2" text="lfo" parameterId="Intensity" isPluginParameter="1"
+                 pluginParameterName="pitch-lfo2" showTextBox="0" textColour="0"
+                 min="-1.0" middlePosition="0.0"/>
       <Component type="ScriptSlider" id="Knob3" x="53.0" y="109.0" parentComponent="Panel4"
                  width="45.0" height="45.0" bgColour="0" itemColour="0" itemColour2="0"
                  processorId="PITCH LFO2" text="" parameterId="Frequency" middlePosition="20.0"
@@ -319,7 +322,8 @@
       <Component type="ScriptSlider" id="Knob51" x="3.0" y="181.0" parentComponent="Panel4"
                  width="45.0" height="45.0" itemColour="0" itemColour2="0" bgColour="0"
                  textColour="0" processorId="pitchenv2" parameterId="Intensity"
-                 text="" isPluginParameter="1" pluginParameterName="pitch-env2"/>
+                 text="" isPluginParameter="1" pluginParameterName="pitch-env2"
+                 min="-1.0" middlePosition="0.0"/>
       <Component type="ScriptSlider" id="Knob56" x="71.0" y="186.0" parentComponent="Panel4"
                  width="15.0" height="45.0" itemColour="4285612948" itemColour2="0"
                  bgColour="4291598835" textColour="0" text="" processorId="pitchenv2"
@@ -623,11 +627,12 @@
       <Component type="ScriptSlider" id="Knob35" x="6.0" y="109.0" parentComponent="Panel11"
                  width="45.0" height="45.0" bgColour="0" itemColour="0" itemColour2="0"
                  text="" processorId="PITCH LFO3" parameterId="Intensity" isPluginParameter="1"
-                 pluginParameterName="pitch-lfo3" textColour="0"/>
+                 pluginParameterName="pitch-lfo3" textColour="0" min="-1.0" middlePosition="0.0"/>
       <Component type="ScriptSlider" id="Knob57" x="5.0" y="181.0" parentComponent="Panel11"
                  width="45.0" height="45.0" itemColour="0" itemColour2="0" bgColour="0"
                  textColour="0" text="" processorId="pitchenv3" parameterId="Intensity"
-                 isPluginParameter="1" pluginParameterName="pitch-env3" middlePosition="0.5"/>
+                 isPluginParameter="1" pluginParameterName="pitch-env3" middlePosition="0.0"
+                 min="-1.0"/>
       <Component type="ScriptSlider" id="Knob58" x="71.0" y="186.0" parentComponent="Panel11"
                  width="15.0" height="45.0" itemColour="4285612948" itemColour2="0"
                  bgColour="4291598835" textColour="0" text="" processorId="pitchenv3"
@@ -715,19 +720,19 @@
     <Component type="ScriptSlider" id="ScriptSlider5" x="458.0" y="0.0" width="100.0"
                height="50.0" parentComponent="master" bgColour="4285282689"
                itemColour="4285282689" itemColour2="4285282689" textColour="4293845472"
-               processorId="Script FX1" parameterId="diffusion" text="Diff."/>
+               processorId="Script FX1" parameterId="diffusions" text="Diff."/>
     <Component type="ScriptSlider" id="ScriptSlider6" x="570.0" y="0.0" width="100.0"
                height="50.0" parentComponent="master" bgColour="4285282689"
                itemColour="4285282689" itemColour2="4285282689" textColour="4293845472"
-               processorId="Script FX1" parameterId="feedback" text="Feed"/>
+               processorId="Script FX1" parameterId="feed" text="Feed"/>
     <Component type="ScriptSlider" id="ScriptSlider7" x="683.0" y="0.0" width="100.0"
                height="50.0" parentComponent="master" bgColour="4285282689"
                itemColour="4285282689" itemColour2="4285282689" textColour="4293845472"
-               processorId="Script FX1" parameterId="moddepth" text="Depth"/>
+               processorId="Script FX1" parameterId="mod" text="Depth"/>
     <Component type="ScriptSlider" id="ScriptSlider8" x="795.0" y="0.0" width="100.0"
                height="50.0" parentComponent="master" bgColour="4285282689"
                itemColour="4285282689" itemColour2="4285282689" textColour="4293845472"
-               processorId="Script FX1" parameterId="modfreq" text="Freq"/>
+               processorId="Script FX1" parameterId="freq" text="Freq"/>
     <Component type="ScriptButton" id="ScriptButton1" x="907.0" y="29.0" width="30.0"
                height="20.0" parentComponent="master" bgColour="4288707517"
                itemColour="4288707517" itemColour2="4288707517"/>
@@ -741,7 +746,7 @@
     <Component type="ScriptFloatingTile" id="ScriptFloatingTile1" x="12.0" y="16.0"
                width="310.0" height="530.0" parentComponent="ScriptPanel1" ContentType="PresetBrowser"
                bgColour="4283367509" itemColour="4294170878" itemColour2="4285282689"
-               Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: true,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowFavoriteIcon&quot;: true,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 2,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3333333333333333,&#10;    0.3333333333333333,&#10;    0.3333333333333333&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
+               Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: false,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowFavoriteIcon&quot;: true,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 2,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3333333333333333,&#10;    0.3333333333333333,&#10;    0.3333333333333333&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
                textColour="4292003550"/>
   </Component>
 </ContentProperties>

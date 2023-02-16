@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.0">
+<Preset Version="1.0.1">
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="pitch1" value="-1.0"/>
     <Control type="ScriptSlider" id="plfo1" value="0.1099999994039536"/>
@@ -13,7 +13,7 @@
     <Control type="ScriptButton" id="stpon1" value="1.0"/>
     <Control type="ScriptSlider" id="rate1" value="5.0"/>
     <Control type="ScriptSlider" id="steps1" value="4.0"/>
-    <Control type="ScriptSliderPack" id="SliderPack1" value="3" data="16................v......"/>
+    <Control type="ScriptSliderPack" id="SliderPack1" value="3.0" data="16................v......"/>
     <Control type="ScriptSlider" id="layerenv1" value="0.949999988079071"/>
     <Control type="ScriptSlider" id="Layer1" value="1.0"/>
     <Control type="ScriptSlider" id="track1" value="0.0"/>
@@ -41,7 +41,7 @@
     <Control type="ScriptSlider" id="Knob8" value="195.0"/>
     <Control type="ScriptSlider" id="Knob44" value="0.01999999955296516"/>
     <Control type="ScriptSlider" id="Knob21" value="3.0"/>
-    <Control type="ScriptSliderPack" id="SliderPack2" value="2" data="12....3.A..fFL..fYP"/>
+    <Control type="ScriptSliderPack" id="SliderPack2" value="2.0" data="12....3.A..fFL..fYP"/>
     <Control type="ScriptButton" id="Button2" value="1.0"/>
     <Control type="ScriptSlider" id="Knob19" value="11.0"/>
     <Control type="ScriptSlider" id="Knob1" value="2.0"/>
@@ -94,7 +94,7 @@
     <Control type="ScriptSlider" id="Knob58" value="7.0"/>
     <Control type="ScriptButton" id="Button7" value="1.0"/>
     <Control type="ScriptSlider" id="Knob48" value="0.0"/>
-    <Control type="ScriptSliderPack" id="SliderPack3" value="15" data="64....3.C..fEL...bP...f+B...DD...Pv...vAC...EL........PAA...GD...PP....AC....D...Jv...vAC"/>
+    <Control type="ScriptSliderPack" id="SliderPack3" value="15.0" data="64....3.C..fEL...bP...f+B...DD...Pv...vAC...EL........PAA...GD...PP....AC....D...Jv...vAC"/>
     <Control type="ScriptSlider" id="Knob41" value="8.0"/>
     <Control type="ScriptSlider" id="Knob42" value="16.0"/>
     <Control type="ScriptButton" id="Button4" value="1.0"/>

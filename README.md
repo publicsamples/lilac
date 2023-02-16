@@ -20,3 +20,4 @@ Lilac features 3  identical voices, each with a dedicated sequencer/arpeggiator,
 2. Download [sample content](https://github.com/publicsamples/Lilac/releases/download/1.0.1/LilacSamples.zip)
 3. Build project in [HISE](http://hise.audio)
 
+Ready to use binaries for Mac OS & Windows are available to my [Patreon supporters](https://www.patreon.com/modularsamples)
